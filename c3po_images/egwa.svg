@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg9"
+   width="1630.1155"
+   height="347.44583"
+   viewBox="0 0 1630.1155 347.44583"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs13">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath27">
+      <path
+         d="M 99.386593,135.02687 H 302.29568 v 97.92 H 99.386593 Z"
+         id="path25" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath37">
+      <path
+         d="M 99.386593,135.02687 H 302.29568 v 97.92 H 99.386593 Z"
+         id="path35" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath47">
+      <path
+         d="M 99.386593,135.02687 H 302.29568 v 97.92 H 99.386593 Z"
+         id="path45" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath57">
+      <path
+         d="M 99.386593,135.02687 H 302.29568 v 97.92 H 99.386593 Z"
+         id="path55" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath123">
+      <path
+         d="M 99.386593,135.02687 H 302.29568 v 97.92 H 99.386593 Z"
+         id="path121" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath157">
+      <path
+         d="m 403.75023,135.02687 h 202.90909 v 97.92 H 403.75023 Z"
+         id="path155" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath167">
+      <path
+         d="m 403.75023,135.02687 h 202.90909 v 97.92 H 403.75023 Z"
+         id="path165" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath177">
+      <path
+         d="m 403.75023,135.02687 h 202.90909 v 97.92 H 403.75023 Z"
+         id="path175" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath187">
+      <path
+         d="m 403.75023,135.02687 h 202.90909 v 97.92 H 403.75023 Z"
+         id="path185" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath255">
+      <path
+         d="m 403.75023,135.02687 h 202.90909 v 97.92 H 403.75023 Z"
+         id="path253" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath289">
+      <path
+         d="m 708.11387,135.02687 h 202.90909 v 97.92 H 708.11387 Z"
+         id="path287" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath299">
+      <path
+         d="m 708.11387,135.02687 h 202.90909 v 97.92 H 708.11387 Z"
+         id="path297" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath309">
+      <path
+         d="m 708.11387,135.02687 h 202.90909 v 97.92 H 708.11387 Z"
+         id="path307" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath319">
+      <path
+         d="m 708.11387,135.02687 h 202.90909 v 97.92 H 708.11387 Z"
+         id="path317" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath387">
+      <path
+         d="m 708.11387,135.02687 h 202.90909 v 97.92 H 708.11387 Z"
+         id="path385" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath421">
+      <path
+         d="m 1012.4775,135.02687 h 202.9091 v 97.92 h -202.9091 z"
+         id="path419" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath431">
+      <path
+         d="m 1012.4775,135.02687 h 202.9091 v 97.92 h -202.9091 z"
+         id="path429" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath441">
+      <path
+         d="m 1012.4775,135.02687 h 202.9091 v 97.92 h -202.9091 z"
+         id="path439" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath451">
+      <path
+         d="m 1012.4775,135.02687 h 202.9091 v 97.92 h -202.9091 z"
+         id="path449" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath519">
+      <path
+         d="m 1012.4775,135.02687 h 202.9091 v 97.92 h -202.9091 z"
+         id="path517" />
+    </clipPath>
+  </defs>
+  <g
+     id="g17"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,347.44583)">
+    <path
+       d="M 99.386593,135.02687 H 302.29568 v 97.92 H 99.386593 Z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="path19" />
+    <g
+       id="g21">
+      <g
+         id="g23"
+         clip-path="url(#clipPath27)">
+        <path
+           d="m 108.60973,135.02687 h 38.83428 v 7.30282 h -38.83428 z"
+           style="fill:#ff7f0e;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path29" />
+      </g>
+    </g>
+    <g
+       id="g31">
+      <g
+         id="g33"
+         clip-path="url(#clipPath37)">
+        <path
+           d="m 157.15258,135.02687 h 38.83427 v 74.77323 h -38.83427 z"
+           style="fill:#d62728;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path39" />
+      </g>
+    </g>
+    <g
+       id="g41">
+      <g
+         id="g43"
+         clip-path="url(#clipPath47)">
+        <path
+           d="m 205.69542,135.02687 h 38.83428 v 22.22945 h -38.83428 z"
+           style="fill:#2ca02c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path49" />
+      </g>
+    </g>
+    <g
+       id="g51">
+      <g
+         id="g53"
+         clip-path="url(#clipPath57)">
+        <path
+           d="m 254.23827,135.02687 h 38.83427 v 90.82298 h -38.83427 z"
+           style="fill:#1f77b4;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path59" />
+      </g>
+    </g>
+    <g
+       id="g61">
+      <path
+         d="m 128.02687,135.02687 v -3.5"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path63" />
+      <g
+         id="g65"
+         transform="rotate(45,-3.6340178,23.843847)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:16px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text69"><tspan
+             x="0 10.456875 21.119625 32.287624 45.695625 56.471874 66.279877 76.423874 86.583878 96.375877 111.95988 117.04787 131.85625 141.66425 146.11224"
+             y="0"
+             id="tspan67">SAC+Random Walk</tspan></text>
+      </g>
+      <path
+         d="m 176.56972,135.02687 v -3.5"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path71" />
+      <g
+         id="g73"
+         transform="rotate(45,-16.50322,172.10564)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:16px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text77"><tspan
+             x="0 10.456875 21.119625 32.287624 45.695625 56.815624 68.783623"
+             y="0"
+             id="tspan75">SAC+RND</tspan></text>
+      </g>
+      <path
+         d="m 225.11256,135.02687 v -3.5"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path79" />
+      <g
+         id="g81"
+         transform="rotate(45,8.9478894,227.85402)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:16px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text85"><tspan
+             x="0 10.456875 21.119625 32.287624 45.695625 55.855625 69.663628"
+             y="0"
+             id="tspan83">SAC+SMM</tspan></text>
+      </g>
+      <path
+         d="m 273.65541,135.02687 v -3.5"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path87" />
+      <g
+         id="g89"
+         transform="rotate(45,39.516187,271.24842)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:16px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text93"><tspan
+             x="0 11.168 21.344 30.992001 43.584 48.672001 54.911999 64.704002 74.848 81.424004 89.760002"
+             y="0"
+             id="tspan91">C3PO (ours)</tspan></text>
+      </g>
+      <path
+         d="m 99.386593,135.02687 h -3.5"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path95" />
+      <g
+         id="g97"
+         transform="translate(66.917843,128.94875)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:16px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text101"><tspan
+             x="0 10.176 15.264"
+             y="0"
+             id="tspan99">0.0</tspan></text>
+      </g>
+      <path
+         d="m 99.386593,194.03504 h -3.5"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path103" />
+      <g
+         id="g105"
+         transform="translate(66.917843,187.95692)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:16px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text109"><tspan
+             x="0 10.176 15.264"
+             y="0"
+             id="tspan107">0.1</tspan></text>
+      </g>
+      <g
+         id="g111"
+         transform="rotate(90,-49.874358,109.46408)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:16px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text115"><tspan
+             x="0 10.112 25.936001 38.335999"
+             y="0"
+             id="tspan113">EWGA</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g117">
+      <g
+         id="g119"
+         clip-path="url(#clipPath123)">
+        <path
+           d="m 128.02687,141.00612 v 2.64714"
+           style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           id="path125" />
+        <path
+           d="M 176.56972,203.71639 V 215.8838"
+           style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           id="path127" />
+        <path
+           d="m 225.11256,154.45212 v 5.6084"
+           style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           id="path129" />
+        <path
+           d="m 273.65541,223.41568 v 4.86833"
+           style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           id="path131" />
+      </g>
+    </g>
+    <g
+       id="g133">
+      <path
+         d="m 99.386593,135.02687 v 97.92"
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path135" />
+      <path
+         d="m 302.29568,135.02687 v 97.92"
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path137" />
+      <path
+         d="M 99.386593,135.02687 H 302.29568"
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path139" />
+      <path
+         d="M 99.386593,232.94687 H 302.29568"
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path141" />
+      <g
+         id="g143"
+         transform="translate(184.3802,238.94687)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:19.2px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text147"><tspan
+             x="0 13.1328 25.305599"
+             y="0"
+             id="tspan145">Ant</tspan></text>
+      </g>
+      <path
+         d="m 403.75023,135.02687 h 202.90909 v 97.92 H 403.75023 Z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path149" />
+    </g>
+    <g
+       id="g151">
+      <g
+         id="g153"
+         clip-path="url(#clipPath157)">
+        <path
+           d="m 412.97337,135.02687 h 38.83428 v 11.50303 h -38.83428 z"
+           style="fill:#ff7f0e;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path159" />
+      </g>
+    </g>
+    <g
+       id="g161">
+      <g
+         id="g163"
+         clip-path="url(#clipPath167)">
+        <path
+           d="m 461.51621,135.02687 h 38.83428 v 12.11694 h -38.83428 z"
+           style="fill:#d62728;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path169" />
+      </g>
+    </g>
+    <g
+       id="g171">
+      <g
+         id="g173"
+         clip-path="url(#clipPath177)">
+        <path
+           d="m 510.05906,135.02687 h 38.83428 v 18.62723 h -38.83428 z"
+           style="fill:#2ca02c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path179" />
+      </g>
+    </g>
+    <g
+       id="g181">
+      <g
+         id="g183"
+         clip-path="url(#clipPath187)">
+        <path
+           d="m 558.6019,135.02687 h 38.83428 v 81.12516 H 558.6019 Z"
+           style="fill:#1f77b4;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path189" />
+      </g>
+    </g>
+    <g
+       id="g191">
+      <path
+         d="m 432.39051,135.02687 v -3.5"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path193" />
+      <g
+         id="g195"
+         transform="rotate(45,148.5478,391.24326)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:16px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text199"><tspan
+             x="0 10.456875 21.119625 32.287624 45.695625 56.471874 66.279877 76.423874 86.583878 96.375877 111.95988 117.04787 131.85625 141.66425 146.11224"
+             y="0"
+             id="tspan197">SAC+Random Walk</tspan></text>
+      </g>
+      <path
+         d="m 480.93335,135.02687 v -3.5"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path201" />
+      <g
+         id="g203"
+         transform="rotate(45,135.6786,539.50505)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:16px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text207"><tspan
+             x="0 10.456875 21.119625 32.287624 45.695625 56.815624 68.783623"
+             y="0"
+             id="tspan205">SAC+RND</tspan></text>
+      </g>
+      <path
+         d="m 529.4762,135.02687 v -3.5"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path209" />
+      <g
+         id="g211"
+         transform="rotate(45,161.12971,595.25343)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:16px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text215"><tspan
+             x="0 10.456875 21.119625 32.287624 45.695625 55.855625 69.663628"
+             y="0"
+             id="tspan213">SAC+SMM</tspan></text>
+      </g>
+      <path
+         d="m 578.01904,135.02687 v -3.5"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path217" />
+      <g
+         id="g219"
+         transform="rotate(45,191.698,638.64783)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:16px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text223"><tspan
+             x="0 11.168 21.344 30.992001 43.584 48.672001 54.911999 64.704002 74.848 81.424004 89.760002"
+             y="0"
+             id="tspan221">C3PO (ours)</tspan></text>
+      </g>
+      <path
+         d="m 403.75023,135.02687 h -3.5"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path225" />
+      <g
+         id="g227"
+         transform="translate(371.28148,128.94875)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:16px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text231"><tspan
+             x="0 10.176 15.264"
+             y="0"
+             id="tspan229">0.0</tspan></text>
+      </g>
+      <path
+         d="m 403.75023,180.9231 h -3.5"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path233" />
+      <g
+         id="g235"
+         transform="translate(371.28148,174.84497)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:16px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text239"><tspan
+             x="0 10.176 15.264"
+             y="0"
+             id="tspan237">0.1</tspan></text>
+      </g>
+      <path
+         d="m 403.75023,226.81932 h -3.5"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path241" />
+      <g
+         id="g243"
+         transform="translate(371.28148,220.7412)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:16px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text247"><tspan
+             x="0 10.176 15.264"
+             y="0"
+             id="tspan245">0.2</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g249">
+      <g
+         id="g251"
+         clip-path="url(#clipPath255)">
+        <path
+           d="m 432.39051,141.07322 v 10.91336"
+           style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           id="path257" />
+        <path
+           d="m 480.93335,143.00506 v 8.27749"
+           style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           id="path259" />
+        <path
+           d="m 529.4762,147.94092 v 11.42637"
+           style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           id="path261" />
+        <path
+           d="m 578.01904,204.02005 v 24.26396"
+           style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           id="path263" />
+      </g>
+    </g>
+    <g
+       id="g265">
+      <path
+         d="m 403.75023,135.02687 v 97.92"
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path267" />
+      <path
+         d="m 606.65932,135.02687 v 97.92"
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path269" />
+      <path
+         d="M 403.75023,135.02687 H 606.65932"
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path271" />
+      <path
+         d="M 403.75023,232.94687 H 606.65932"
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path273" />
+      <g
+         id="g275"
+         transform="translate(447.00165,238.94687)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:19.2px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text279"><tspan
+             x="0 14.4384 26.208 31.545601 38.304001 48.863998 61.0368 72.844803 84.652802 92.179199 103.9488"
+             y="0"
+             id="tspan277">Halfcheetah</tspan></text>
+      </g>
+      <path
+         d="m 708.11387,135.02687 h 202.90909 v 97.92 H 708.11387 Z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path281" />
+    </g>
+    <g
+       id="g283">
+      <g
+         id="g285"
+         clip-path="url(#clipPath289)">
+        <path
+           d="m 717.33701,135.02687 h 38.83427 v 28.39045 h -38.83427 z"
+           style="fill:#ff7f0e;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path291" />
+      </g>
+    </g>
+    <g
+       id="g293">
+      <g
+         id="g295"
+         clip-path="url(#clipPath299)">
+        <path
+           d="m 765.87985,135.02687 h 38.83428 v 57.43264 h -38.83428 z"
+           style="fill:#d62728;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path301" />
+      </g>
+    </g>
+    <g
+       id="g303">
+      <g
+         id="g305"
+         clip-path="url(#clipPath309)">
+        <path
+           d="m 814.4227,135.02687 h 38.83427 v 49.55346 H 814.4227 Z"
+           style="fill:#2ca02c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path311" />
+      </g>
+    </g>
+    <g
+       id="g313">
+      <g
+         id="g315"
+         clip-path="url(#clipPath319)">
+        <path
+           d="m 862.96554,135.02687 h 38.83428 v 92.07214 h -38.83428 z"
+           style="fill:#1f77b4;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path321" />
+      </g>
+    </g>
+    <g
+       id="g323">
+      <path
+         d="m 736.75414,135.02687 v -3.5"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path325" />
+      <g
+         id="g327"
+         transform="rotate(45,300.72962,758.64267)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:16px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text331"><tspan
+             x="0 10.456875 21.119625 32.287624 45.695625 56.471874 66.279877 76.423874 86.583878 96.375877 111.95988 117.04787 131.85625 141.66425 146.11224"
+             y="0"
+             id="tspan329">SAC+Random Walk</tspan></text>
+      </g>
+      <path
+         d="m 785.29699,135.02687 v -3.5"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path333" />
+      <g
+         id="g335"
+         transform="rotate(45,287.86042,906.90446)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:16px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text339"><tspan
+             x="0 10.456875 21.119625 32.287624 45.695625 56.815624 68.783623"
+             y="0"
+             id="tspan337">SAC+RND</tspan></text>
+      </g>
+      <path
+         d="m 833.83983,135.02687 v -3.5"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path341" />
+      <g
+         id="g343"
+         transform="rotate(45,313.31153,962.65284)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:16px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text347"><tspan
+             x="0 10.456875 21.119625 32.287624 45.695625 55.855625 69.663628"
+             y="0"
+             id="tspan345">SAC+SMM</tspan></text>
+      </g>
+      <path
+         d="m 882.38268,135.02687 v -3.5"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path349" />
+      <g
+         id="g351"
+         transform="rotate(45,343.87982,1006.0472)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:16px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text355"><tspan
+             x="0 11.168 21.344 30.992001 43.584 48.672001 54.911999 64.704002 74.848 81.424004 89.760002"
+             y="0"
+             id="tspan353">C3PO (ours)</tspan></text>
+      </g>
+      <path
+         d="m 708.11387,135.02687 h -3.5"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path357" />
+      <g
+         id="g359"
+         transform="translate(675.64512,128.94875)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:16px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text363"><tspan
+             x="0 10.176 15.264"
+             y="0"
+             id="tspan361">0.0</tspan></text>
+      </g>
+      <path
+         d="m 708.11387,176.21335 h -3.5"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path365" />
+      <g
+         id="g367"
+         transform="translate(675.64512,170.13523)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:16px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text371"><tspan
+             x="0 10.176 15.264"
+             y="0"
+             id="tspan369">0.1</tspan></text>
+      </g>
+      <path
+         d="m 708.11387,217.39984 h -3.5"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path373" />
+      <g
+         id="g375"
+         transform="translate(675.64512,211.32171)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:16px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text379"><tspan
+             x="0 10.176 15.264"
+             y="0"
+             id="tspan377">0.2</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g381">
+      <g
+         id="g383"
+         clip-path="url(#clipPath387)">
+        <path
+           d="m 736.75414,160.75911 v 5.31643"
+           style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           id="path389" />
+        <path
+           d="m 785.29699,187.95894 v 9.00114"
+           style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           id="path391" />
+        <path
+           d="m 833.83983,162.55654 v 44.04757"
+           style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           id="path393" />
+        <path
+           d="m 882.38268,225.91401 v 2.37"
+           style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           id="path395" />
+      </g>
+    </g>
+    <g
+       id="g397">
+      <path
+         d="m 708.11387,135.02687 v 97.92"
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path399" />
+      <path
+         d="m 911.02296,135.02687 v 97.92"
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path401" />
+      <path
+         d="M 708.11387,135.02687 H 911.02296"
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path403" />
+      <path
+         d="M 708.11387,232.94687 H 911.02296"
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path405" />
+      <g
+         id="g407"
+         transform="translate(774.34185,238.94687)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:19.2px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text411"><tspan
+             x="0 14.4384 26.188801 38.380798 50.5728 62.380798"
+             y="0"
+             id="tspan409">Hopper</tspan></text>
+      </g>
+      <path
+         d="m 1012.4775,135.02687 h 202.9091 v 97.92 h -202.9091 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path413" />
+    </g>
+    <g
+       id="g415">
+      <g
+         id="g417"
+         clip-path="url(#clipPath421)">
+        <path
+           d="m 1021.7006,135.02687 h 38.8343 v 26.425 h -38.8343 z"
+           style="fill:#ff7f0e;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path423" />
+      </g>
+    </g>
+    <g
+       id="g425">
+      <g
+         id="g427"
+         clip-path="url(#clipPath431)">
+        <path
+           d="m 1070.2435,135.02687 h 38.8343 v 18.92909 h -38.8343 z"
+           style="fill:#d62728;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path433" />
+      </g>
+    </g>
+    <g
+       id="g435">
+      <g
+         id="g437"
+         clip-path="url(#clipPath441)">
+        <path
+           d="m 1118.7863,135.02687 h 38.8343 V 189.994 h -38.8343 z"
+           style="fill:#2ca02c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path443" />
+      </g>
+    </g>
+    <g
+       id="g445">
+      <g
+         id="g447"
+         clip-path="url(#clipPath451)">
+        <path
+           d="m 1167.3292,135.02687 h 38.8343 v 90.92451 h -38.8343 z"
+           style="fill:#1f77b4;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path453" />
+      </g>
+    </g>
+    <g
+       id="g455">
+      <path
+         d="m 1041.1178,135.02687 v -3.5"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path457" />
+      <g
+         id="g459"
+         transform="rotate(45,452.91144,1126.0421)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:16px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text463"><tspan
+             x="0 10.456875 21.119625 32.287624 45.695625 56.471874 66.279877 76.423874 86.583878 96.375877 111.95988 117.04787 131.85625 141.66425 146.11224"
+             y="0"
+             id="tspan461">SAC+Random Walk</tspan></text>
+      </g>
+      <path
+         d="m 1089.6606,135.02687 v -3.5"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path465" />
+      <g
+         id="g467"
+         transform="rotate(45,440.04223,1274.3039)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:16px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text471"><tspan
+             x="0 10.456875 21.119625 32.287624 45.695625 56.815624 68.783623"
+             y="0"
+             id="tspan469">SAC+RND</tspan></text>
+      </g>
+      <path
+         d="m 1138.2035,135.02687 v -3.5"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path473" />
+      <g
+         id="g475"
+         transform="rotate(45,465.49334,1330.0523)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:16px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text479"><tspan
+             x="0 10.456875 21.119625 32.287624 45.695625 55.855625 69.663628"
+             y="0"
+             id="tspan477">SAC+SMM</tspan></text>
+      </g>
+      <path
+         d="m 1186.7463,135.02687 v -3.5"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path481" />
+      <g
+         id="g483"
+         transform="rotate(45,496.06164,1373.4466)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:16px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text487"><tspan
+             x="0 11.168 21.344 30.992001 43.584 48.672001 54.911999 64.704002 74.848 81.424004 89.760002"
+             y="0"
+             id="tspan485">C3PO (ours)</tspan></text>
+      </g>
+      <path
+         d="m 1012.4775,135.02687 h -3.5"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path489" />
+      <g
+         id="g491"
+         transform="translate(980.00875,128.94875)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:16px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text495"><tspan
+             x="0 10.176 15.264"
+             y="0"
+             id="tspan493">0.0</tspan></text>
+      </g>
+      <path
+         d="m 1012.4775,176.73503 h -3.5"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path497" />
+      <g
+         id="g499"
+         transform="translate(980.00875,170.6569)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:16px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text503"><tspan
+             x="0 10.176 15.264"
+             y="0"
+             id="tspan501">0.1</tspan></text>
+      </g>
+      <path
+         d="m 1012.4775,218.44318 h -3.5"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path505" />
+      <g
+         id="g507"
+         transform="translate(980.00875,212.36506)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:16px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text511"><tspan
+             x="0 10.176 15.264"
+             y="0"
+             id="tspan509">0.2</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g513">
+      <g
+         id="g515"
+         clip-path="url(#clipPath519)">
+        <path
+           d="m 1041.1178,155.21184 v 12.48005"
+           style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           id="path521" />
+        <path
+           d="M 1089.6606,143.98631 V 163.9256"
+           style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           id="path523" />
+        <path
+           d="m 1138.2035,179.19143 v 21.60514"
+           style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           id="path525" />
+        <path
+           d="m 1186.7463,223.61875 v 4.66526"
+           style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           id="path527" />
+      </g>
+    </g>
+    <g
+       id="g529">
+      <path
+         d="m 1012.4775,135.02687 v 97.92"
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path531" />
+      <path
+         d="m 1215.3866,135.02687 v 97.92"
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path533" />
+      <path
+         d="m 1012.4775,135.02687 h 202.9091"
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path535" />
+      <path
+         d="m 1012.4775,232.94687 h 202.9091"
+         style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path537" />
+      <g
+         id="g539"
+         transform="translate(1069.0883,238.94687)">
+        <text
+           xml:space="preserve"
+           transform="scale(1,-1)"
+           style="font-variant:normal;font-weight:normal;font-size:19.2px;font-family:DejaVuSans;-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text543"><tspan
+             x="0 17.77005 29.53965 34.877251 45.322174 57.130177 65.021378 77.232574"
+             y="0"
+             id="tspan541">Walker2d</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

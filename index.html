@@ -1,0 +1,699 @@
+<!-- Copyright 2021 Google LLC
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    https://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+ -->
+<!doctype html>
+<head>
+  <title>C3PO</title>
+
+  <style type="text/css">svg:not(:root).svg-inline--fa{overflow:visible}.svg-inline--fa{display:inline-block;font-size:inherit;height:1em;overflow:visible;vertical-align:-.125em}.svg-inline--fa.fa-lg{vertical-align:-.225em}.svg-inline--fa.fa-w-1{width:.0625em}.svg-inline--fa.fa-w-2{width:.125em}.svg-inline--fa.fa-w-3{width:.1875em}.svg-inline--fa.fa-w-4{width:.25em}.svg-inline--fa.fa-w-5{width:.3125em}.svg-inline--fa.fa-w-6{width:.375em}.svg-inline--fa.fa-w-7{width:.4375em}.svg-inline--fa.fa-w-8{width:.5em}.svg-inline--fa.fa-w-9{width:.5625em}.svg-inline--fa.fa-w-10{width:.625em}.svg-inline--fa.fa-w-11{width:.6875em}.svg-inline--fa.fa-w-12{width:.75em}.svg-inline--fa.fa-w-13{width:.8125em}.svg-inline--fa.fa-w-14{width:.875em}.svg-inline--fa.fa-w-15{width:.9375em}.svg-inline--fa.fa-w-16{width:1em}.svg-inline--fa.fa-w-17{width:1.0625em}.svg-inline--fa.fa-w-18{width:1.125em}.svg-inline--fa.fa-w-19{width:1.1875em}.svg-inline--fa.fa-w-20{width:1.25em}.svg-inline--fa.fa-pull-left{margin-right:.3em;width:auto}.svg-inline--fa.fa-pull-right{margin-left:.3em;width:auto}.svg-inline--fa.fa-border{height:1.5em}.svg-inline--fa.fa-li{width:2em}.svg-inline--fa.fa-fw{width:1.25em}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em}.fa-layers svg.svg-inline--fa{-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter{background-color:#ff253a;border-radius:1em;-webkit-box-sizing:border-box;box-sizing:border-box;color:#fff;height:1.5em;line-height:1;max-width:5em;min-width:1.5em;overflow:hidden;padding:.25em;right:0;text-overflow:ellipsis;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-bottom-right{bottom:0;right:0;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom right;transform-origin:bottom right}.fa-layers-bottom-left{bottom:0;left:0;right:auto;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom left;transform-origin:bottom left}.fa-layers-top-right{right:0;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-top-left{left:0;right:auto;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top left;transform-origin:top left}.fa-lg{font-size:1.3333333333em;line-height:.75em;vertical-align:-.0667em}.fa-xs{font-size:.75em}.fa-sm{font-size:.875em}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:2.5em;padding-left:0}.fa-ul>li{position:relative}.fa-li{left:-2em;position:absolute;text-align:center;width:2em;line-height:inherit}.fa-border{border:solid .08em #eee;border-radius:.1em;padding:.2em .25em .15em}.fa-pull-left{float:left}.fa-pull-right{float:right}.fa.fa-pull-left,.fab.fa-pull-left,.fal.fa-pull-left,.far.fa-pull-left,.fas.fa-pull-left{margin-right:.3em}.fa.fa-pull-right,.fab.fa-pull-right,.fal.fa-pull-right,.far.fa-pull-right,.fas.fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear}.fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8)}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.fa-rotate-90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-webkit-transform:scale(-1,1);transform:scale(-1,1)}.fa-flip-vertical{-webkit-transform:scale(1,-1);transform:scale(1,-1)}.fa-flip-both,.fa-flip-horizontal.fa-flip-vertical{-webkit-transform:scale(-1,-1);transform:scale(-1,-1)}:root .fa-flip-both,:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-rotate-90{-webkit-filter:none;filter:none}.fa-stack{display:inline-block;height:2em;position:relative;width:2.5em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.svg-inline--fa.fa-stack-1x{height:1em;width:1.25em}.svg-inline--fa.fa-stack-2x{height:2em;width:2.5em}.fa-inverse{color:#fff}.sr-only{border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.sr-only-focusable:active,.sr-only-focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.svg-inline--fa .fa-primary{fill:var(--fa-primary-color,currentColor);opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa .fa-secondary{fill:var(--fa-secondary-color,currentColor);opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-primary{opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-secondary{opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa mask .fa-primary,.svg-inline--fa mask .fa-secondary{fill:#000}.fad.fa-inverse{color:#fff}</style></head>
+<meta charset="utf-8">
+<script src="template.v1.js"></script>
+<script src="https://distill.pub/template.v2.js"></script>
+<script>
+  window.onload = function() {
+    var elements = document.getElementsByTagName("dt-banner");
+    console.log(elements);
+    while (elements.length > 0) {
+      elements[0].parentNode.removeChild(elements[0]);
+  };}
+</script>
+
+<dt-article>
+  <dt-byline class="l-middle"></dt-byline>
+  <h1>C3PO: Learning to Achieve Arbitrary Goals <br> via Massively Entropic Pretraining </h1>
+    <dt-byline class="row l-page" id="authors_section" >
+        <div class="author column">
+            <div class="name">Alexis Jacq*</div>
+            <div class="name">Manu Orsini*</div>
+            <div class="name">Gabriel Dulac-Arnold</div>
+            <div class="name">Olivier Pietquin</div>
+            <div class="name">Matthieu Geist</div>
+            <div class="name">Olivier Bachem</div>
+        </div>
+        <div class="date column">
+          <div class="affiliation">Google Research</div>
+          <div class="month">October 2022</div>
+          <div class="publication-link" align="left">
+            <span class="link-block">
+              <!-- copy here the arxiv link -->
+              <!--
+              <a target="_blank" href=>
+              -->
+                <span class="icon">
+                    <svg class="svg-inline--fa fa-file-pdf fa-w-12" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="file-pdf" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M181.9 256.1c-5-16-4.9-46.9-2-46.9 8.4 0 7.6 36.9 2 46.9zm-1.7 47.2c-7.7 20.2-17.3 43.3-28.4 62.7 18.3-7 39-17.2 62.9-21.9-12.7-9.6-24.9-23.4-34.5-40.8zM86.1 428.1c0 .8 13.2-5.4 34.9-40.2-6.7 6.3-29.1 24.5-34.9 40.2zM248 160h136v328c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V24C0 10.7 10.7 0 24 0h200v136c0 13.2 10.8 24 24 24zm-8 171.8c-20-12.2-33.3-29-42.7-53.8 4.5-18.5 11.6-46.6 6.2-64.2-4.7-29.4-42.4-26.5-47.8-6.8-5 18.3-.4 44.1 8.1 77-11.6 27.6-28.7 64.6-40.8 85.8-.1 0-.1.1-.2.1-27.1 13.9-73.6 44.5-54.5 68 5.6 6.9 16 10 21.5 10 17.9 0 35.7-18 61.1-61.8 25.8-8.5 54.1-19.1 79-23.2 21.7 11.8 47.1 19.5 64 19.5 29.2 0 31.2-32 19.7-43.4-13.9-13.6-54.3-9.7-73.6-7.2zM377 105L279 7c-4.5-4.5-10.6-7-17-7h-6v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-74.1 255.3c4.1-2.7-2.5-11.9-42.8-9 37.1 15.8 42.8 9 42.8 9z"></path></svg>
+                </span>
+                <span>Paper TBD</span>
+              <!-- </a> -->
+              </span>
+            <br>
+            <span class="link-block">
+
+              <!-- copy here the code link -->
+              <!--
+              <a target="_blank" href=""=> -->
+              <span class="icon">
+                  <svg class="svg-inline--fa fa-github fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+              </span>
+              <span>Code TBD</span></span>
+              <!-- </a> -->
+          </div>
+        </div></dt-byline>
+
+        <div class="row l-middle">
+          <div class="column">
+            <img src="animated_gifs/HalfCheetah/frontflip.gif" width="100%"></img>
+            <img src="animated_gifs/HalfCheetah/handstand.gif" width="100%"></img>
+          </div>
+          <div class="column">
+            <img src="animated_gifs/Ant/download (1).gif" width="100%"></img>
+            <img src="animated_gifs/Ant/download (2).gif" width="100%"></img>
+          </div>
+          <div class="column">
+            <img src="animated_gifs/Humanoid/download (3).gif" width="100%"></img>
+            <img src="animated_gifs/Humanoid/download (1).gif" width="100%"></img>
+          </div>
+        </div>
+
+  <h2>Introduction</h2>
+
+    <p class="l-middle" align="justify">Reinforcement learning (RL) has shown great results in optimizing for single reward functions<dt-cite key="mnih2013playing,silver2017mastering,vinyals2019alphastar"></dt-cite>, that is  when a controller has to solve a specific task and/or the task is known beforehand.  If the task is not known <i>a priori</i>, or is likely to be often re-configured, then re-training a new policy from scratch can be very expensive and looks as a waste of resources.  In the case of multipurpose systems deployed in contexts where they will likely be required to perform a large range of tasks, investing significant resources into training a high-performance general goal-based controller beforehand makes sense.  We propose an approach allowing for training a <i>universal goal achievement policy</i>, a policy able to attain any arbitrary state the system can take.
+    <!--
+    <br>
+    <br>
+    Goal-conditioned RL is such a setting where a single policy function can be prompted to aim for a particular goal-state<dt-cite key="kaelbling1993learning,schaul2015universal"></dt-cite>.  One important issue with goal-conditioned RL is that goals that are useful for training the policy are generally unknown, and even in the case of humans this is a key part of learning general controllers<dt-cite key="schulz2012finding, smith2005development"></dt-cite>. Several approaches exist in the literature. Adversarial methods build out a goal-based curriculum<dt-cite key="mendonca2021discovering,eysenbach2018diversity,openai2021asymmetric,florensa2018automatic"></dt-cite> through various ad-hoc 2-player games.
+    Other recent approaches<dt-cite key="kamienny2021direct,campos2020explore"></dt-cite> explicitly optimize for uniform state coverage with the goal of learning a general goal-conditioned policy, but are still tied to learning a policy function to actually implement the exploration strategy in the environment.
+    Although not explicitly geared towards goal-based learning, many reward-free RL<dt-cite key="laskin2021urlb"></dt-cite> approaches are geared towards learning policies that provide good state coverage<dt-cite key="bellemare2016unifying,ostrovski2017count,burda2018exploration,houthooft2016vime,badia2020never"></dt-cite>, however primarily with the intent of fine-tuning the learnt exploration policy rather than leveraging its state coverage.
+    -->
+    <br>
+    <br>
+    Our proposed approach, <i><b>C</b>onditioned <b>C</b>ontinuous <b>C</b>ontrol <b>P</b>olicy <b>O</b>ptimization</i> (C3PO), is based on the hypothesis that disentangling the exploration phase from the policy learning phase can lead to simpler and more robust algorithms. It is composed of two steps:
+    </p>
+    <ul>
+      <li> <b>Goal Discovery:</b> generating a set of achievable states, as diverse as possible to maximize coverage, while being as uniform as possible to facilitate interpolation.</li>
+      <li> <b>Goal-Conditioned Training:</b> leveraging these states to learn to reach arbitrary goals.</li>
+    </ul>
+    <p class="l-middle" align="justify">To address the goal discovery step in C3PO, we propose the Chronological Greedy Entropy Maximization (ChronoGEM) algorithm, designed to exhaustively explore  reachable states, even in complex high dimensional environments.
+    ChronoGEM does not rely on any form of trained policy and thus doesn't require any interaction with the environment to learn to explore. Instead it uses a highly-parallelized random-branching policy to cover the environment, whose branching tree is iteratively re-pruned to maintain uniform leaf coverage.  This iterative pruning process leverages learnt density models and inverse sampling to maintain a set of leaf states that are as uniform as possible over the state space.
+    Training the goal-conditioned policy is then performed by leveraging the uniform states generated by ChronoGEM as a dataset of goals that provide well-distributed coverage over achievable states.
+    </p>
+    <!--
+    We perform two types of experiments to illustrate C3PO's benefits over similar methods:
+    First, we evaluate entropy upper bounds on ChronoGEM's generated state distribution compared to other reference exploration methods such as RND<dt-cite key="burda2018exploration"></dt-cite> and SMM<dt-cite key="lee2019efficient"></dt-cite> as described in Section~\ref{density_estimation}.
+    Second, we compare the full C3PO approach to ablated versions that leverage datasets generated by SMM and RND and a random walk.  We do this by performing cross-validating of goal-conditioned policies across methods.  By training a policy on one method's dataset and evaluating its' goal-achievement capabilities on datasets generated by other methods, we can observe which of the methods gives rise to the most general policy.
+    Through these two empirical studies, we illustrate the superiority of ChronoGEM compared to RND and SMM.
+    Finally, we investigate C3PO's abilities in achieving arbitrary poses on five continuous control environments: Hopper, Walker2d, HalfCheetah, Ant and Humanoid.
+    -->
+
+  <h2>Conditioned Continuous Control <br>Policy Optimization (C3PO)</h2>
+    <!--
+    <p class="l-middle" align="justify">The optimal universal goal-achievement policy for a given embodiment should allow an agent to achieve any reachable position and pose in the environment as quickly as possible.  Learning such a policy necessarily requires a significant amount of exploration and training to both find and learn to attain a large enough number of states to generalize across goal-states. However, in the context of a simulator, which allows for both parallelization and arbitrary environment resets, covering a massive amount of the state space is doable.  In our case, we consider <d-math>2^{17}</d-math> parallel trajectories, that are re-sampled every step to maintain an high coverage of the reachable space.  Once such large coverage of the state space is achieved, learning a goal-achievement policy can be done with a relatively straight-forward learning algorithm that aims at attaining goals from this high-coverage set of states.  If the states are well-enough distributed, and if the learning algorithm is sufficiently efficient, we may expect the final policy to achieve universal goal-achievement.
+    </p>
+    -->
+    <p class="l-middle" align="justify"><b>Massively Entropic Pre-Training.</b> As described above, the first step is to discover the set of achievable goals.
+    This collection will be the key of the effectiveness of the resulting policy: We want it as uniform as possible such that no reachable region is neglected.
+    Therefore, without any prior, the ideal set of goals should be uniformly sampled from the manifold of states that are reachable in a given number of steps (<d-math>T</d-math>). Since the shape of that manifold is totally unknown and can be arbitrarily complex, such sampling is impossible.
+    <br>
+    <br>
+    However, it is possible to approximate such a sampling if enough states are simultaneously explored at the previous time step (<d-math>T-1</d-math>). Assume we are able to sample <d-math>N</d-math> states that approximate the uniform distribution at time <d-math>T-1</d-math>. Then, from each of these states, playing <d-math>K</d-math> uniform actions to obtain <d-math>NK</d-math> next states would not lead to a uniform sampling over the possible next states. However, with <d-math>N</d-math> large enough, it would at least induce a good coverage of the set of reachable next states.
+    Let <d-math>\rho_T</d-math> be the distribution induced by these <d-math>NK</d-math> next states.
+    Since the set of achievable states in <d-math>T</d-math> steps is necessary bounded (at least in any realistic environment), and given that we are able to closely estimate <d-math>\rho_T</d-math>, we can sub-sample with a probability weighted by the inverse of the density <d-math>\frac{1}{\rho_T}</d-math> in order to approximate a uniform sampling.
+    <br>
+    <br>
+    <b>ChronoGEM.</b> This suggests a recursive approach to approximate a uniform sampling of the reachable states in <d-math>T</d-math> steps, by starting with states sampled from the environment's initial distribution <d-math>\rho_0</d-math>, playing uniform actions, sub-sampling to get an highly covering set that approximates a uniform distribution, re-exploring actions from that new set, and then again, for <d-math>T</d-math> iterations.
+    We call this process ChronoGEM (for Chronological Greedy Entropy Maximization) since at a given step, it only focus on maximizing the entropy by directly approximating a uniform distribution over the next step, without further planning.
+    </p>
+
+    <p class="l-middle" align="justify">
+    <img src="c3po_images/maze_traj.png" style="width:20%; margin-right: 20px;" align="left">
+    <b>Continuous maze.</b> As a tool scenario to test ChronoGEM, we implemented a two-dimensional continuous maze in which actions are <d-math>d_x,d_y</d-math> steps bounded by the <d-math>[-1, 1]^2</d-math> square, and the whole state space is bounded by the <d-math>[-100, 100]^2</d-math> square.
+    The starting point is at the center of the square.
+    This maze is particularly hard to fully explore as two narrow corridors need to be crossed in order to reach the up-left room.
+    The main goal of this experiment is to verify that even in a challenging tool game, ChronoGEM still manages to induce a uniform distribution over the whole state space.
+    In order to emphasize the relative difficulty of the exploration of this maze, we also run exploration baselines
+    RND<dt-cite key="burda2018exploration"></dt-cite> and SMM<dt-cite key="lee2019efficient"></dt-cite> to compare the obtained state coverages.
+    <div class="row l-middle">
+      <div class="column"> SMM
+        <img src="c3po_images/smm_maze.gif" width="100%"></img>
+      </div>
+      <div class="column"> RND
+        <img src="c3po_images/rnd_maze.gif" width="100%"></img>
+      </div>
+      <div class="column"> ChronoGEM
+        <img src="c3po_images/maze_chronogem.gif" width="100%"></img>
+      </div>
+    </div>
+    <div class="row l-middle"><figcaption>Evolution of the discretized states visitation when taking the last states from 4000 episodes (a cell's aira is colored if at least one trajectory ends in it), sampled according to a SMM, RND and ChronoGEM.
+    Both RND and SMM fails at passing through the first corridor, and only ChronoGEM managed to visit states in the up-left room.</figcaption></div>
+    <br>
+    <p class="l-middle" align="justify"><b>Goal-conditioned training.</b> To build C3PO, we modified Brax' implementation of SAC to take a set of goal as input and train to reach them.
+    The reward is the opposite of the maximum of the euclidean distance between a body (e.g. an arm, the torso, a leg) and its goal position.
+    As a result the policy is encouraged to move to the correct location and then match the correct pose. The goal is added to the observation as a relative position to the current position.
+    We says that a goal is reached if the Euclidean distance between the agent's state and the goal is smaller that a tolerance threshold <d-math>\epsilon</d-math>.
+    In other terms, an episode <d-math>\mathcal{E}</d-math> is successful when its closest state to the goal is close enough:
+    <d-math>\text{success}(\mathcal{E}\vert g) \Leftrightarrow \min_{s\in \mathcal{E}}||s - g||^2 <\epsilon</d-math>.
+    We set the environment to stop an episode as soon as it is successful, or when it exceeds the number of allowed steps.
+    We initially set the tolerance <d-math>\epsilon</d-math> to be high (1.) and slowly anneal it down when the success rate reaches <d-math>90\%</d-math> on the training data.
+    As a result SAC learns first to move towards the target and then to match the exact position.
+    We call C3PO the resulting procedure that combines ChronoGEM for the training data collection and goal-conditioned SAC with tolerance annealing.
+    </p>
+
+  <h2>Experiments</h2>
+
+    <p class="l-middle" align="justify"><b>Environments.</b> We used the control tasks from Brax<dt-cite key="brax2021github"></dt-cite> as high dimensional environments. To compare the entropy and the richness of the obtained set of states with bonus-based exploration baselines, we focused on four classical tasks: Hopper, Walker2d, Halfcheetah and Ant.
+    Since we focus on achieving arbitrary poses and positions of the embodied agents, we modified the environments observations so they contain the <d-math>(x, y, z)</d-math> positions of all body parts.
+    All measures (cross entropy or reaching distances) are based on that type of state.
+    To get reasonable trajectories (as opposed to trajectories where HalfCheetah jumps to the sky), we explore the environment within the low energy regime by putting a multiplier on the maximum action.
+    The multiplier is .1 for Hopper, .1 for Walker, .01 for HalfCheetah and 1. for Ant.
+    In the two following subsections, we considered episodes of length <d-math>T=128</d-math>. So the physical time horizon is similar on all tasks, we added an action repeat of 6 for Hopper and Walker.
+    All episode end conditions (because the torso is too low or too high for example) have been removed, so we have no prior.
+    </p>
+
+    <p class="l-middle" align="justify"><b>Algorithm and baselines.</b> To collect training data, ChronoGEM was run with <d-math>N=2
+    ^{17}</d-math> paralleled environments and branching factor <d-math>K=4</d-math> in all following experiments, except for Humanoid in which <d-math>N=2
+    ^{15}</d-math> and <d-math>K=64</d-math>. We detail C3PO and all baselines (goal-SAC+RND, goal-SAC+SMM and goal-SAC+random walk) implementations in the paper's appendix.
+    For each baseline, we separately tuned the hyper parameters in order to obtain the best performance in all different environments.
+    </p>
+    <p class="l-middle" align="justify"><b>Training goals entropy.</b> Given a set of points <d-math>x_1... x_N</d-math>
+    sampled from a distribution with an unknown density <d-math>\rho</d-math>,
+    one can estimate an upper bound of the entropy of <d-math>\rho</d-math> given by the cross entropy <d-math>H(\rho, \hat{\rho})</d-math>
+    where <d-math>\hat{\rho}</d-math> is an estimation of <d-math>\rho</d-math>:
+    <p class="l-middle" align="center"><d-math>H(\rho, \hat{\rho}) = -\mathbb{E}_{x\sim \rho}[\log \hat{\rho}(x)] = H(\rho) + \text{kl}(\rho\vert\vert\hat{\rho}) \geq H(\rho).</d-math>
+    <p class="l-middle" align="justify">The estimation <d-math>\hat{\rho}</d-math> being trained by maximum likelihood specifically on the set of points,
+    it directly minimises the cross entropy and closely approximate the true entropy.
+    <!--
+    The KL term becomes negligible and only depends on the accuracy of the trained model on the observed set of points,
+    which supposedly does not differ given the different exploration method that generated the points.
+    Consequently, comparing the cross entropy is similar to comparing the entropy of the distribution induced by the exploration.
+    -->
+    We used this upper-bound to compare the coverage and richness of the set of training goals produced by ChronoGEM compared to RND, SMM and a random walks. The figure above displays box plots over 10 seeds of the resulting cross entropy measured on the sets of states induced by different algorithms, on the 4 continuous control tasks.
+    As expected, the random walk has the lowest entropy, and RND and SMM have, in average over the environments, similar performances.
+    ChronoGEM has the highest entropy on all environments, especially on HalfCheetah, where it was the only method to manage exploration while the actions were drastically reduced by the low multiplier.
+    </p>
+    <div class="figure l-middle" align="justify">
+       <img src="c3po_images/cross_entropy.svg" width="100%">
+      <figcaption>Distribution over 10 seeds of the cross entropies of the state visitation induced by ChronoGEM, RND, SMM and a random walk, on different continuous control tasks.</figcaption>
+    </div>
+    <br>
+
+
+    <p class="l-middle" align="justify"><b>Reaching unseen goals.</b> If an exploration method is good, drawing from the states it explored should be a good approximation of drawing from all achievable states.
+    The state distribution induced by an exploration algorithm can be used both as a training set of goal, but also as an evaluation set of goals.
+    <br>
+    For each environment, we ran every of the four examined exploration methods (ChronoGEM, Random Walk, SMM and RND)
+    with 3 seeds to build 3 training goal sets per method and 3 evaluation goal sets per method.
+    Training goal sets have 4096 goals and evaluation goal sets have 128 goals.
+    We plot the success rate with regard to the tolerance, for each environment and evaluation goal set.
+    The next figure shows that evaluated on ChronoGEM goals, only C3PO -- which is trained on ChronoGEM -- gets good results while evaluated on goals from other methods.
+    This is a good hint that the diversity of ChronoGEM goals is higher than other exploration methods.
+    C3PO performs well on other evaluation sets as well, in particular in the low distance threshold regime (see Hopper and Walker).
+    This can be explained by the fact that C3PO learns to reach a high variety of poses, since being able to achieve poses with high fidelity is what matters for low distance threshold regime.
+    </p>
+    <div class="figure l-middle" align="justify">
+       <img src="c3po_images/cross_expe.svg" width="100%">
+      <figcaption>For each environment (lines) and each set of evaluation goals (columns), success rates as a function of tolerance thresholds obtained by SAC when trained on the different sets of training goals (<span style="color:blue;">ChronoGEM</span>, <span style="color:orange;">Random Walk</span>, <span style="color:green;">SMM</span>, <span style="color:red;">RND</span>). Each exploration algorithm was run over 3 seeds to collect evaluation and training goals, and each SAC training was also run over 3 seeds, so the resulting curves are actually averaging 9 different values.</figcaption>
+    </div>
+
+    <br>
+    <p class="l-middle" align="justify"><b>Entropy Weighted Goal Achievement (EWGA).</b> However, previous achievement rates alone are still hardly interpretable:
+    for example, being good at reaching goals generated by the random walk is less important than achieving harder goals,
+    especially those from the highly entropic distributions (like ChronoGEM goals on Halfcheetah or SMM goals on Walker).
+    We hence summarized the results by collecting all the areas under the curve (AUC), and weighting them proportionally to the exponential of the evaluation goals entropy in the following Figure.
+    Indeed, if a set is very diverse, it means more to be able to achieve all of its goals, and vice-versa: if a set is not diverse we don't want to give too much importance to it,
+    as achieving always the same goal is not so interesting. The exponential of the entropy quantifies the number of states in the distribution.
+    We call this metric Entropy Weighted Goal Achievement (EWGA):
+    </p>
+    <p class="l-middle" align="center"><d-math>EWGA(method) = \frac{\sum_{s \in evaluation\;sets} exp(entropy(s))* AUC(method\;on\;s)}{\sum_{s \in evaluation\;sets} exp(entropy(s))}
+    </d-math></p>
+    <div class="figure l-middle" align="justify">
+       <img src="c3po_images/egwa.svg" width="100%">
+      <figcaption>Entropy Weighted Goal-Achievement (EWGA). This estimates the ability of a policy to achieve goal sets that better covers the space (for example, a policy like C3PO that reaches a larger variety of states has an higher EWGA than a policy like SAC trained on the Random Walk, that only reaches states that are close to the origin).</figcaption>
+    </div>
+
+  <h2>Massive goal-conditioned training</h2>
+    <p class="l-middle" align="justify">Now that we established that ChronoGEM is the best exploration method for the purpose of producing training goals for a goal-conditioned setup,
+    we will only use this method. We know allow ourselves to train for massive amount of steps, and see what is the best policy we can achieve.
+    Thanks to Brax's high parallelization and efficient infrastructure, it is possible to run 30G steps in a couple days.
+    <br>
+    <p class="l-middle" align="justify"><b>Humanoid.</b> We also add Humanoid to our set environments.
+    By default, ChronoGEM would mostly explore positions where the humanoid is on the floor.
+    However, it was simple to modulate the algorithm to only explore uniformly in the space of state where the humanoid is standing.
+    For example, on can just associate zero weight to undesired states during the re-sampling step.
+    That way, we avoided states in which the torso go under the altitude of .8 (the default failure condition).
+    ChronoGEM is modified to not draw states where the humanoid is too low.
+    The goal-conditioned learner gets a high penalty for going too low too.
+    The visual results of a policy able to achieve 90\% success at .25 tolerance are represented in the following gifs.
+    This shows that when we do have a prior, we can leverage it to steer the exploration and policy learning.
+    </p>
+    <div class="row l-middle">
+      <div class="column"> Hopper
+        <img src="animated_gifs/Hopper/download (1).gif" width="100%"></img>
+        <img src="animated_gifs/Hopper/download (2).gif" width="100%"></img>
+        <img src="animated_gifs/Hopper/download (3).gif" width="100%"></img>
+        <img src="animated_gifs/Hopper/download (4).gif" width="100%"></img>
+        <img src="animated_gifs/Hopper/download (5).gif" width="100%"></img>
+        <img src="animated_gifs/Hopper/download (6).gif" width="100%"></img>
+      </div>
+      <div class="column"> Walker
+        <img src="animated_gifs/Walker/download (1).gif" width="100%"></img>
+        <img src="animated_gifs/Walker/download (2).gif" width="100%"></img>
+        <img src="animated_gifs/Walker/download (3).gif" width="100%"></img>
+        <img src="animated_gifs/Walker/download (4).gif" width="100%"></img>
+        <img src="animated_gifs/Walker/download (5).gif" width="100%"></img>
+        <img src="animated_gifs/Walker/download (6).gif" width="100%"></img>
+      </div>
+      <div class="column"> HalfCheetah
+        <img src="animated_gifs/HalfCheetah/frontflip.gif" width="100%"></img>
+        <img src="animated_gifs/HalfCheetah/handstand.gif" width="100%"></img>
+        <img src="animated_gifs/HalfCheetah/download (1).gif" width="100%"></img>
+        <img src="animated_gifs/HalfCheetah/download (2).gif" width="100%"></img>
+        <img src="animated_gifs/HalfCheetah/download (3).gif" width="100%"></img>
+        <img src="animated_gifs/HalfCheetah/download (4).gif" width="100%"></img>
+      </div>
+      <div class="column"> Ant
+        <img src="animated_gifs/Ant/download (1).gif" width="100%"></img>
+        <img src="animated_gifs/Ant/download (2).gif" width="100%"></img>
+        <img src="animated_gifs/Ant/download (3).gif" width="100%"></img>
+        <img src="animated_gifs/Ant/download (4).gif" width="100%"></img>
+        <img src="animated_gifs/Ant/download (5).gif" width="100%"></img>
+        <img src="animated_gifs/Ant/download (6).gif" width="100%"></img>
+      </div>
+      <div class="column"> Humanoid
+        <img src="animated_gifs/Humanoid/download (1).gif" width="100%"></img>
+        <img src="animated_gifs/Humanoid/download (2).gif" width="100%"></img>
+        <img src="animated_gifs/Humanoid/download (3).gif" width="100%"></img>
+        <img src="animated_gifs/Humanoid/download (4).gif" width="100%"></img>
+        <img src="animated_gifs/Humanoid/download (5).gif" width="100%"></img>
+        <img src="animated_gifs/Humanoid/download (6).gif" width="100%"></img>
+      </div>
+    </div>
+
+  <h2>Conclusion</h2>
+    <p class="l-middle" align="justify">In the real world, no reward function is provided. To be able to learn anyways, we designed ChronoGEM, an exploration method that generates high entropy behaviors,
+    in theory (see a proof in our paper's appendix) and in practice (see the goals entropy experiment), outperforming baseline algorithms.
+    All the skills discovered by an exploration algorithm can be used to train a goal-conditioned policy.
+    We showed that training ChronoGEM goals results in the most potent policies compared to other exploration methods.
+    On Hopper, Walker, HalfCheetah, Ant and Humanoid, visuals and metrics show that the policy we trained is able to achieve a large variety of goals
+    - by moving to the correct position and then matching the pose - with high fidelity.
+    </p>
+
+
+<dt-appendix>
+  <p>This article was prepared using the <a href="https://distill.pub">Distill</a> <a href="https://github.com/distillpub/template">template</a>.</p>
+
+  <h3 id="citation">Citation</h3>
+
+  <p>For attribution in academic contexts, please cite this work as</p>
+  <pre class="citation short">Jacq et al., "C3PO: Learning to Achieve Arbitrary Goals
+via Massively Entropic Pretraining", 2022</pre>
+  <p>BibTeX citation</p>
+  <pre class="citation long">@article{jacq2022c3po,
+  title   = {C3PO: Learning to Achieve Arbitrary Goals
+via Massively Entropic Pretraining},
+  author  = {Jacq, Alexis and Orsini, Manu and Dulac-Arnold, Gabriel and Pietquin, Olivier
+             and Geist, Matthieu and Bachem, Olivier},
+  journal = {arXiv preprint arXiv:TBD},
+  year    = {2022},
+  pdf     = {https://arxiv.org/pdf/TBD.pdf},
+}</pre>
+
+</dt-appendix>
+<script type="text/bibliography">
+
+  @article{uria2013rnade,
+  title={RNADE: The real-valued neural autoregressive density-estimator},
+  author={Uria, Benigno and Murray, Iain and Larochelle, Hugo},
+  journal={Advances in Neural Information Processing Systems},
+  volume={26},
+  year={2013}
+}
+
+@inproceedings{germain2015made,
+  title={Made: Masked autoencoder for distribution estimation},
+  author={Germain, Mathieu and Gregor, Karol and Murray, Iain and Larochelle, Hugo},
+  booktitle={International conference on machine learning},
+  pages={881--889},
+  year={2015},
+  organization={PMLR}
+}
+
+@article{dinh2016density,
+  title={Density estimation using real nvp},
+  author={Dinh, Laurent and Sohl-Dickstein, Jascha and Bengio, Samy},
+  journal={arXiv preprint arXiv:1605.08803},
+  year={2016}
+}
+
+@article{papamakarios2017masked,
+  title={Masked autoregressive flow for density estimation},
+  author={Papamakarios, George and Pavlakou, Theo and Murray, Iain},
+  journal={Advances in neural information processing systems},
+  volume={30},
+  year={2017}
+}
+
+@article{durkan2019neural,
+  title={Neural spline flows},
+  author={Durkan, Conor and Bekasov, Artur and Murray, Iain and Papamakarios, George},
+  journal={Advances in neural information processing systems},
+  volume={32},
+  year={2019}
+}
+
+@misc{brax2021github,
+  title={Brax - A Differentiable Physics Engine for Large Scale Rigid Body Simulation},
+  author={C. Daniel Freeman and Erik Frey and Anton Raichuk and Sertan Girgin and Igor Mordatch and Olivier Bachem},
+  url={http://github.com/google/brax},
+  version={0.0.13},
+  year={2021}
+}
+
+@inproceedings{todorov2012mujoco,
+  title={MuJoCo: A physics engine for model-based control},
+  author={Todorov, Emanuel and Erez, Tom and Tassa, Yuval},
+  booktitle={2012 IEEE/RSJ International Conference on Intelligent Robots and Systems},
+  pages={5026--5033},
+  year={2012},
+  organization={IEEE},
+  doi={10.1109/IROS.2012.6386109}
+}
+
+@article{bellemare2016unifying,
+  title={Unifying count-based exploration and intrinsic motivation},
+  author={Bellemare, Marc and Srinivasan, Sriram and Ostrovski, Georg and Schaul, Tom and Saxton, David and Munos, Remi},
+  journal={Advances in neural information processing systems},
+  volume={29},
+  year={2016}
+}
+
+@inproceedings{ostrovski2017count,
+  title={Count-based exploration with neural density models},
+  author={Ostrovski, Georg and Bellemare, Marc G and Oord, A{\"a}ron and Munos, R{\'e}mi},
+  booktitle={International conference on machine learning},
+  pages={2721--2730},
+  year={2017},
+  organization={PMLR}
+}
+
+@article{burda2018exploration,
+  title={Exploration by random network distillation},
+  author={Burda, Yuri and Edwards, Harrison and Storkey, Amos and Klimov, Oleg},
+  journal={arXiv preprint arXiv:1810.12894},
+  year={2018}
+}
+
+@article{houthooft2016vime,
+  title={Vime: Variational information maximizing exploration},
+  author={Houthooft, Rein and Chen, Xi and Duan, Yan and Schulman, John and De Turck, Filip and Abbeel, Pieter},
+  journal={Advances in neural information processing systems},
+  volume={29},
+  year={2016}
+}
+
+@article{raileanu2020ride,
+  title={Ride: Rewarding impact-driven exploration for procedurally-generated environments},
+  author={Raileanu, Roberta and Rockt{\"a}schel, Tim},
+  journal={arXiv preprint arXiv:2002.12292},
+  year={2020}
+}
+
+@article{badia2020never,
+  title={Never give up: Learning directed exploration strategies},
+  author={Badia, Adri{\`a} Puigdom{\`e}nech and Sprechmann, Pablo and Vitvitskyi, Alex and Guo, Daniel and Piot, Bilal and Kapturowski, Steven and Tieleman, Olivier and Arjovsky, Mart{\'\i}n and Pritzel, Alexander and Bolt, Andew and others},
+  journal={arXiv preprint arXiv:2002.06038},
+  year={2020}
+}
+
+@article{eysenbach2018diversity,
+  title={Diversity is all you need: Learning skills without a reward function},
+  author={Eysenbach, Benjamin and Gupta, Abhishek and Ibarz, Julian and Levine, Sergey},
+  journal={arXiv preprint arXiv:1802.06070},
+  year={2018}
+}
+
+@inproceedings{hazan2019provably,
+  title={Provably efficient maximum entropy exploration},
+  author={Hazan, Elad and Kakade, Sham and Singh, Karan and Van Soest, Abby},
+  booktitle={International Conference on Machine Learning},
+  pages={2681--2691},
+  year={2019},
+  organization={PMLR}
+}
+
+@article{guo2021geometric,
+  title={Geometric entropic exploration},
+  author={Guo, Zhaohan Daniel and Azar, Mohammad Gheshlaghi and Saade, Alaa and Thakoor, Shantanu and Piot, Bilal and Pires, Bernardo Avila and Valko, Michal and Mesnard, Thomas and Lattimore, Tor and Munos, R{\'e}mi},
+  journal={arXiv preprint arXiv:2101.02055},
+  year={2021}
+}
+
+@article{lee2019efficient,
+  title={Efficient exploration via state marginal matching},
+  author={Lee, Lisa and Eysenbach, Benjamin and Parisotto, Emilio and Xing, Eric and Levine, Sergey and Salakhutdinov, Ruslan},
+  journal={arXiv preprint arXiv:1906.05274},
+  year={2019}
+}
+
+@article{geist2021concave,
+  title={Concave utility reinforcement learning: the mean-field game viewpoint},
+  author={Geist, Matthieu and P{\'e}rolat, Julien and Lauri{\`e}re, Mathieu and Elie, Romuald and Perrin, Sarah and Bachem, Olivier and Munos, R{\'e}mi and Pietquin, Olivier},
+  journal={arXiv preprint arXiv:2106.03787},
+  year={2021}
+}
+
+@article{liu2021behavior,
+  title={Behavior from the void: Unsupervised active pre-training},
+  author={Liu, Hao and Abbeel, Pieter},
+  journal={Advances in Neural Information Processing Systems},
+  volume={34},
+  pages={18459--18473},
+  year={2021}
+}
+
+@inproceedings{liu2021aps,
+  title={Aps: Active pretraining with successor features},
+  author={Liu, Hao and Abbeel, Pieter},
+  booktitle={International Conference on Machine Learning},
+  pages={6736--6747},
+  year={2021},
+  organization={PMLR}
+}
+
+@article{andrychowicz2017hindsight,
+  title={Hindsight experience replay},
+  author={Andrychowicz, Marcin and Wolski, Filip and Ray, Alex and Schneider, Jonas and Fong, Rachel and Welinder, Peter and McGrew, Bob and Tobin, Josh and Pieter Abbeel, OpenAI and Zaremba, Wojciech},
+  journal={Advances in neural information processing systems},
+  volume={30},
+  year={2017}
+}
+
+@inproceedings{pitis2020maximum,
+  title={Maximum entropy gain exploration for long horizon multi-goal reinforcement learning},
+  author={Pitis, Silviu and Chan, Harris and Zhao, Stephen and Stadie, Bradly and Ba, Jimmy},
+  booktitle={International Conference on Machine Learning},
+  pages={7750--7761},
+  year={2020},
+  organization={PMLR}
+}
+
+@article{salimans2018learning,
+  title={Learning montezuma's revenge from a single demonstration},
+  author={Salimans, Tim and Chen, Richard},
+  journal={arXiv preprint arXiv:1812.03381},
+  year={2018}
+}
+
+@article{mendonca2021discovering,
+  title={Discovering and achieving goals via world models},
+  author={Mendonca, Russell and Rybkin, Oleh and Daniilidis, Kostas and Hafner, Danijar and Pathak, Deepak},
+  journal={Advances in Neural Information Processing Systems},
+  volume={34},
+  pages={24379--24391},
+  year={2021}
+}
+
+@article{ecoffet2019go,
+  title={Go-explore: a new approach for hard-exploration problems},
+  author={Ecoffet, Adrien and Huizinga, Joost and Lehman, Joel and Stanley, Kenneth O and Clune, Jeff},
+  journal={arXiv preprint arXiv:1901.10995},
+  year={2019}
+}
+
+@article{kamienny2021direct,
+  title={Direct then Diffuse: Incremental Unsupervised Skill Discovery for State Covering and Goal Reaching},
+  author={Kamienny, Pierre-Alexandre and Tarbouriech, Jean and Lazaric, Alessandro and Denoyer, Ludovic},
+  journal={arXiv preprint arXiv:2110.14457},
+  year={2021}
+}
+
+@inproceedings{haarnoja2018soft,
+  title={Soft actor-critic: Off-policy maximum entropy deep reinforcement learning with a stochastic actor},
+  author={Haarnoja, Tuomas and Zhou, Aurick and Abbeel, Pieter and Levine, Sergey},
+  booktitle={International conference on machine learning},
+  pages={1861--1870},
+  year={2018},
+  organization={PMLR}
+}
+
+@article{openai2021asymmetric,
+  title={Asymmetric self-play for automatic goal discovery in robotic manipulation},
+  author={OpenAI, OpenAI and Plappert, Matthias and Sampedro, Raul and Xu, Tao and Akkaya, Ilge and Kosaraju, Vineet and Welinder, Peter and D'Sa, Ruben and Petron, Arthur and Pinto, Henrique P d O and others},
+  journal={arXiv preprint arXiv:2101.04882},
+  year={2021}
+}
+
+@article{ecoffet2021first,
+  title={First return, then explore},
+  author={Ecoffet, Adrien and Huizinga, Joost and Lehman, Joel and Stanley, Kenneth O and Clune, Jeff},
+  journal={Nature},
+  volume={590},
+  number={7847},
+  pages={580--586},
+  year={2021},
+  publisher={Nature Publishing Group}
+}
+
+@inproceedings{campos2020explore,
+  title={Explore, discover and learn: Unsupervised discovery of state-covering skills},
+  author={Campos, V{\'\i}ctor and Trott, Alexander and Xiong, Caiming and Socher, Richard and Gir{\'o}-i-Nieto, Xavier and Torres, Jordi},
+  booktitle={International Conference on Machine Learning},
+  pages={1317--1327},
+  year={2020},
+  organization={PMLR}
+}
+
+@article{silver2017mastering,
+  title={Mastering the game of go without human knowledge},
+  author={Silver, David and Schrittwieser, Julian and Simonyan, Karen and Antonoglou, Ioannis and Huang, Aja and Guez, Arthur and Hubert, Thomas and Baker, Lucas and Lai, Matthew and Bolton, Adrian and others},
+  journal={nature},
+  volume={550},
+  number={7676},
+  pages={354--359},
+  year={2017},
+  publisher={Nature Publishing Group}
+}
+
+@article{vinyals2019alphastar,
+  title={Alphastar: Mastering the real-time strategy game starcraft ii},
+  author={Vinyals, Oriol and Babuschkin, Igor and Chung, Junyoung and Mathieu, Michael and Jaderberg, Max and Czarnecki, Wojciech M and Dudzik, Andrew and Huang, Aja and Georgiev, Petko and Powell, Richard and others},
+  journal={DeepMind blog},
+  volume={2},
+  year={2019}
+}
+
+@article{schwarzer2020data,
+  title={Data-efficient reinforcement learning with self-predictive representations},
+  author={Schwarzer, Max and Anand, Ankesh and Goel, Rishab and Hjelm, R Devon and Courville, Aaron and Bachman, Philip},
+  journal={arXiv preprint arXiv:2007.05929},
+  year={2020}
+}
+
+@article{guo2022byol,
+  title={BYOL-Explore: Exploration by Bootstrapped Prediction},
+  author={Guo, Zhaohan Daniel and Thakoor, Shantanu and P{\^\i}slar, Miruna and Pires, Bernardo Avila and Altch{\'e}, Florent and Tallec, Corentin and Saade, Alaa and Calandriello, Daniele and Grill, Jean-Bastien and Tang, Yunhao and others},
+  journal={arXiv preprint arXiv:2206.08332},
+  year={2022}
+}
+
+@inproceedings{sekar2020planning,
+  title={Planning to explore via self-supervised world models},
+  author={Sekar, Ramanan and Rybkin, Oleh and Daniilidis, Kostas and Abbeel, Pieter and Hafner, Danijar and Pathak, Deepak},
+  booktitle={International Conference on Machine Learning},
+  pages={8583--8592},
+  year={2020},
+  organization={PMLR}
+}
+@misc{mnih2013playing,
+	title = {Playing Atari with Deep Reinforcement Learning},
+	author = {
+		Volodymyr Mnih and Koray Kavukcuoglu and David Silver and Alex Graves and
+		Ioannis Antonoglou and Daan Wierstra and Martin Riedmiller
+	},
+	year = 2013,
+	eprint = {1312.5602},
+	archiveprefix = {arXiv},
+	primaryclass = {cs.LG}
+}
+
+@article{laskin2021urlb,
+  title={URLB: Unsupervised reinforcement learning benchmark},
+  author={Laskin, Michael and Yarats, Denis and Liu, Hao and Lee, Kimin and Zhan, Albert and Lu, Kevin and Cang, Catherine and Pinto, Lerrel and Abbeel, Pieter},
+  journal={arXiv preprint arXiv:2110.15191},
+  year={2021}
+}
+
+@inproceedings{kaelbling1993learning,
+  title={Learning to achieve goals},
+  author={Kaelbling, Leslie Pack},
+  booktitle={IJCAI},
+  volume={2},
+  pages={1094--8},
+  year={1993},
+  organization={Citeseer}
+}
+
+@inproceedings{schaul2015universal,
+  title={Universal value function approximators},
+  author={Schaul, Tom and Horgan, Daniel and Gregor, Karol and Silver, David},
+  booktitle={International conference on machine learning},
+  pages={1312--1320},
+  year={2015},
+  organization={PMLR}
+}
+
+@inproceedings{florensa2018automatic,
+  title={Automatic goal generation for reinforcement learning agents},
+  author={Florensa, Carlos and Held, David and Geng, Xinyang and Abbeel, Pieter},
+  booktitle={International conference on machine learning},
+  pages={1515--1528},
+  year={2018},
+  organization={PMLR}
+}
+
+@article{smith2005development,
+  title={The development of embodied cognition: Six lessons from babies},
+  author={Smith, Linda and Gasser, Michael},
+  journal={Artificial life},
+  volume={11},
+  number={1-2},
+  pages={13--29},
+  year={2005},
+  publisher={MIT Press}
+}
+
+@article{schulz2012finding,
+  title={Finding new facts; thinking new thoughts},
+  author={Schulz, Laura},
+  journal={Advances in child development and behavior},
+  volume={43},
+  pages={269--294},
+  year={2012},
+  publisher={Elsevier}
+}
+
+@inproceedings{lynch2020learning,
+  title={Learning latent plans from play},
+  author={Lynch, Corey and Khansari, Mohi and Xiao, Ted and Kumar, Vikash and Tompson, Jonathan and Levine, Sergey and Sermanet, Pierre},
+  booktitle={Conference on robot learning},
+  pages={1113--1132},
+  year={2020},
+  organization={PMLR}
+}
+
+@article{nair2018visual,
+  title={Visual reinforcement learning with imagined goals},
+  author={Nair, Ashvin V and Pong, Vitchyr and Dalal, Murtaza and Bahl, Shikhar and Lin, Steven and Levine, Sergey},
+  journal={Advances in neural information processing systems},
+  volume={31},
+  year={2018}
+}</script>
